@@ -6,11 +6,84 @@
 
 ## Previews
 
-> Screenshots coming soon.
+### Dark
+
+| Hard | Medium | Soft |
+|---|---|---|
+| ![Everforest Dark (Hard)](./previews/dark-hard.png) | ![Everforest Dark (Medium)](./previews/dark-medium.png) | ![Everforest Dark (Soft)](./previews/dark-soft.png) |
+
+### Light
+
+| Hard | Medium | Soft |
+|---|---|---|
+| ![Everforest Light (Hard)](./previews/light-hard.png) | ![Everforest Light (Medium)](./previews/light-medium.png) | ![Everforest Light (Soft)](./previews/light-soft.png) |
+
+Screenshots use [Meslo LG Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Meslo).
+
+<details>
+<summary>Sample code used in screenshots</summary>
+
+```python
+# Dunder Mifflin Scranton Branch — Staff Management System
+
+BRANCH = "Scranton"
+MAX_CHAOS_LEVEL = 10
+PRETZEL_DAY = True
+
+
+class Employee:
+
+    def __init__(self, name: str, title: str, chaos: int = 0):
+        self.name = name
+        self.title = title
+        self.chaos_level = chaos
+        self.is_regional_manager = False
+
+    def declare_bankruptcy(self) -> None:
+        print(f"{self.name}: I DECLARE BANKRUPTCY!")
+
+    def chaos(self) -> bool:
+        return self.chaos_level >= MAX_CHAOS_LEVEL
+
+
+class RegionalManager(Employee):
+
+    CATCHPHRASE = "That's what she said."
+
+    def __init__(self, name: str):
+        super().__init__(name, "Regional Manager", chaos=9)
+        self.is_regional_manager = True
+        self.clients_scared_off: int = 0
+
+    def motivate(self, staff: list[Employee]) -> str:
+        for employee in staff:
+            employee.chaos_level += 1
+        return self.CATCHPHRASE
+
+
+def pretzel_day_capacity(employees: list[Employee]) -> int:
+    # Pretzel Day always exceeds normal branch capacity
+    return len(employees) * 3
+
+
+staff = [
+    RegionalManager("Michael Scott"),
+    Employee("Dwight Schrute", "Assistant (to the) Regional Manager", chaos=7),
+    Employee("Jim Halpert", "Sales Representative", chaos=3),
+    Employee("Pam Beesly", "Receptionist", chaos=1),
+    Employee("Kevin Malone", "Accountant", chaos=5),
+]
+
+if PRETZEL_DAY:
+    capacity = pretzel_day_capacity(staff)
+    print(f"Scranton capacity today: {capacity}")
+```
+
+</details>
 
 ## Variants
 
-Hard/Medium/Soft differ only in background cotest (highest contrast), Soft is closest tomid-tone (lowest contrast).
+Hard/Medium/Soft differ only in background contrast — Hard is darkest/lightest (highest contrast), Soft is closest to mid-tone (lowest contrast).
 
 | Theme | Background |
 |---|---|
@@ -25,17 +98,19 @@ Hard/Medium/Soft differ only in background cotest (highest contrast), Soft is cl
 
 ### Via CotEditor
 
-1. Download the `.cottheme` file(s) from the
+1. Download the `.cottheme` file(s) from the [`themes/`](./themes) folder.
 2. Open **CotEditor → Settings → Appearance**.
-3. Drag the downloaded file into the theme li
+3. Drag the downloaded file into the theme list.
 
 ### Manually
 
 Copy the `.cottheme` file(s) into:
 
-~/Library/Containers/com.coteditor.CotEditor/ort/CotEditor/Themes
+```
+~/Library/Containers/com.coteditor.CotEditor/Data/Library/Application Support/CotEditor/Themes
+```
 
-> `~/Library` is hidden by default. Open it ider** (`⇧⌘G`) and paste the path.
+> `~/Library` is hidden by default. Open it in Finder via **Go → Go to Folder** (`⇧⌘G`) and paste the path.
 
 ## Credits
 
