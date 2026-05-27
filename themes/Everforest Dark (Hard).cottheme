@@ -1,0 +1,62 @@
+{
+  "attributes" : {
+    "color" : "#e69875"
+  },
+  "background" : {
+    "color" : "#272e33"
+  },
+  "characters" : {
+    "color" : "#83c092"
+  },
+  "commands" : {
+    "color" : "#7fbbb3"
+  },
+  "comments" : {
+    "color" : "#859289"
+  },
+  "highlight" : {
+    "color" : "#4c3743",
+    "usesSystemSetting" : true
+  },
+  "insertionPoint" : {
+    "color" : "#d3c6aa",
+    "usesSystemSetting" : false
+  },
+  "invisibles" : {
+    "color" : "#7a8478"
+  },
+  "keywords" : {
+    "color" : "#e67e80"
+  },
+  "lineHighlight" : {
+    "color" : "#2e383c"
+  },
+  "metadata" : {
+    "author" : "Vasyl Romanets",
+    "description" : "🌲 Everforest Dark Hard theme for CotEditor",
+    "distributionURL" : "https://github.com/VasylRomanets/everforest-coteditor",
+    "license" : "MIT"
+  },
+  "numbers" : {
+    "color" : "#d699b6"
+  },
+  "selection" : {
+    "color" : "#4c3743",
+    "usesSystemSetting" : false
+  },
+  "strings" : {
+    "color" : "#a7c080"
+  },
+  "text" : {
+    "color" : "#d3c6aa"
+  },
+  "types" : {
+    "color" : "#dbbc7f"
+  },
+  "values" : {
+    "color" : "#83c092"
+  },
+  "variables" : {
+    "color" : "#d3c6aa"
+  }
+}
