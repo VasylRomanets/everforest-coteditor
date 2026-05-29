@@ -8,15 +8,41 @@
 
 ### Dark
 
-| Hard | Medium | Soft |
-|---|---|---|
-| ![Everforest Dark (Hard)](./previews/dark-hard.png) | ![Everforest Dark (Medium)](./previews/dark-medium.png) | ![Everforest Dark (Soft)](./previews/dark-soft.png) |
+<table>
+  <thead>
+    <tr>
+      <th width="33.3%">Hard</th>
+      <th width="33.3%">Medium</th>
+      <th width="33.3%">Soft</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="./previews/dark-hard.png" alt="Everforest Dark (Hard)" width="100%"></td>
+      <td><img src="./previews/dark-medium.png" alt="Everforest Dark (Medium)" width="100%"></td>
+      <td><img src="./previews/dark-soft.png" alt="Everforest Dark (Soft)" width="100%"></td>
+    </tr>
+  </tbody>
+</table>
 
 ### Light
 
-| Hard | Medium | Soft |
-|---|---|---|
-| ![Everforest Light (Hard)](./previews/light-hard.png) | ![Everforest Light (Medium)](./previews/light-medium.png) | ![Everforest Light (Soft)](./previews/light-soft.png) |
+<table>
+  <thead>
+    <tr>
+      <th width="33.3%">Hard</th>
+      <th width="33.3%">Medium</th>
+      <th width="33.3%">Soft</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="./previews/light-hard.png" alt="Everforest Light (Hard)" width="100%"></td>
+      <td><img src="./previews/light-medium.png" alt="Everforest Light (Medium)" width="100%"></td>
+      <td><img src="./previews/light-soft.png" alt="Everforest Light (Soft)" width="100%"></td>
+    </tr>
+  </tbody>
+</table>
 
 Screenshots use [Meslo LG Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Meslo).
 
