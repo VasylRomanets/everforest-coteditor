@@ -122,21 +122,6 @@ Hard/Medium/Soft differ only in background contrast — Hard is darkest/lightest
 
 ## Installation
 
-### Via CotEditor
-
-1. Download the `.cottheme` file(s) from the [`themes/`](./themes) folder.
-2. Open **CotEditor → Settings → Appearance**.
-3. Drag the downloaded file into the theme list.
-
-### Via Finder
-
-Copy the `.cottheme` file(s) into:
-
-- **Mac App Store:** `~/Library/Containers/com.coteditor.CotEditor/Data/Library/Application Support/CotEditor/Themes`
-- **Direct download / Homebrew:** `~/Library/Application Support/CotEditor/Themes`
-
-`~/Library` is hidden by default. Open it in Finder via **Go → Go to Folder** (`⇧⌘G`) and paste the path.
-
 ### Via Terminal
 
 **Mac App Store:**
@@ -150,6 +135,21 @@ git clone --depth=1 --no-tags https://github.com/vasylromanets/everforest-cotedi
 ```bash
 git clone --depth=1 --no-tags https://github.com/vasylromanets/everforest-coteditor /tmp/everforest-coteditor && cp /tmp/everforest-coteditor/themes/*.cottheme ~/Library/Application\ Support/CotEditor/Themes/ && rm -rf /tmp/everforest-coteditor
 ```
+
+### Via Finder
+
+Copy the `.cottheme` file(s) into:
+
+- **Mac App Store:** `~/Library/Containers/com.coteditor.CotEditor/Data/Library/Application Support/CotEditor/Themes`
+- **Direct download / Homebrew:** `~/Library/Application Support/CotEditor/Themes`
+
+`~/Library` is hidden by default. Open it in Finder via **Go → Go to Folder** (`⇧⌘G`) and paste the path.
+
+### Via CotEditor
+
+1. Download the `.cottheme` file(s) from the [`themes/`](./themes) folder.
+2. Open **CotEditor → Settings → Appearance**.
+3. Drag the downloaded file into the theme list.
 
 ## License
 
