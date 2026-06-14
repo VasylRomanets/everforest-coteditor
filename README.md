@@ -18,9 +18,9 @@
   </thead>
   <tbody>
     <tr>
-      <td><img src="./previews/dark-hard.png" alt="Everforest Dark (Hard)" width="100%"></td>
-      <td><img src="./previews/dark-medium.png" alt="Everforest Dark (Medium)" width="100%"></td>
-      <td><img src="./previews/dark-soft.png" alt="Everforest Dark (Soft)" width="100%"></td>
+      <td><img src="./.github/assets/dark-hard.png" alt="Everforest Dark (Hard)" width="100%"></td>
+      <td><img src="./.github/assets/dark-medium.png" alt="Everforest Dark (Medium)" width="100%"></td>
+      <td><img src="./.github/assets/dark-soft.png" alt="Everforest Dark (Soft)" width="100%"></td>
     </tr>
   </tbody>
 </table>
@@ -37,9 +37,9 @@
   </thead>
   <tbody>
     <tr>
-      <td><img src="./previews/light-hard.png" alt="Everforest Light (Hard)" width="100%"></td>
-      <td><img src="./previews/light-medium.png" alt="Everforest Light (Medium)" width="100%"></td>
-      <td><img src="./previews/light-soft.png" alt="Everforest Light (Soft)" width="100%"></td>
+      <td><img src="./.github/assets/light-hard.png" alt="Everforest Light (Hard)" width="100%"></td>
+      <td><img src="./.github/assets/light-medium.png" alt="Everforest Light (Medium)" width="100%"></td>
+      <td><img src="./.github/assets/light-soft.png" alt="Everforest Light (Soft)" width="100%"></td>
     </tr>
   </tbody>
 </table>
