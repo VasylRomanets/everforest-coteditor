@@ -140,8 +140,9 @@ git clone --depth=1 --no-tags https://github.com/vasylromanets/everforest-cotedi
 
 Copy the `.cottheme` files into:
 
-- **Mac App Store:** `~/Library/Containers/com.coteditor.CotEditor/Data/Library/Application Support/CotEditor/Themes`
-- **Direct download / Homebrew:** `~/Library/Application Support/CotEditor/Themes`
+**Mac App Store:** `~/Library/Containers/com.coteditor.CotEditor/Data/Library/Application Support/CotEditor/Themes`
+
+**Direct download / Homebrew:** `~/Library/Application Support/CotEditor/Themes`
 
 `~/Library` is hidden by default. Open it in Finder via **Go → Go to Folder** (`⇧⌘G`) and paste the path.
 
