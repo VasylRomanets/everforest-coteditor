@@ -138,10 +138,6 @@ Copy the `.cottheme` file(s) into:
 
 > `~/Library` is hidden by default. Open it in Finder via **Go → Go to Folder** (`⇧⌘G`) and paste the path.
 
-## Credits
-
-[Everforest](https://github.com/sainnhe/everforest) color scheme by [sainnhe](https://github.com/sainnhe).
-
 ## License
 
 [MIT](./LICENSE)
