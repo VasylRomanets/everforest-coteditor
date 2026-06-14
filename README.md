@@ -127,13 +127,17 @@ Hard/Medium/Soft differ only in background contrast — Hard is darkest/lightest
 **Mac App Store:**
 
 ```bash
-git clone --depth=1 --no-tags https://github.com/vasylromanets/everforest-coteditor /tmp/everforest-coteditor && cp /tmp/everforest-coteditor/themes/*.cottheme ~/Library/Containers/com.coteditor.CotEditor/Data/Library/Application\ Support/CotEditor/Themes/ && rm -rf /tmp/everforest-coteditor
+git clone --depth=1 --no-tags https://github.com/vasylromanets/everforest-coteditor /tmp/everforest-coteditor
+cp /tmp/everforest-coteditor/themes/*.cottheme ~/Library/Containers/com.coteditor.CotEditor/Data/Library/Application\ Support/CotEditor/Themes/
+rm -rf /tmp/everforest-coteditor
 ```
 
 **Direct download / Homebrew:**
 
 ```bash
-git clone --depth=1 --no-tags https://github.com/vasylromanets/everforest-coteditor /tmp/everforest-coteditor && cp /tmp/everforest-coteditor/themes/*.cottheme ~/Library/Application\ Support/CotEditor/Themes/ && rm -rf /tmp/everforest-coteditor
+git clone --depth=1 --no-tags https://github.com/vasylromanets/everforest-coteditor /tmp/everforest-coteditor
+cp /tmp/everforest-coteditor/themes/*.cottheme ~/Library/Application\ Support/CotEditor/Themes/
+rm -rf /tmp/everforest-coteditor
 ```
 
 ### Via Finder
