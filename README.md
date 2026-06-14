@@ -138,7 +138,7 @@ git clone --depth=1 --no-tags https://github.com/vasylromanets/everforest-cotedi
 
 ### Via Finder
 
-Copy the `.cottheme` file(s) into:
+Copy the `.cottheme` files into:
 
 - **Mac App Store:** `~/Library/Containers/com.coteditor.CotEditor/Data/Library/Application Support/CotEditor/Themes`
 - **Direct download / Homebrew:** `~/Library/Application Support/CotEditor/Themes`
@@ -147,9 +147,9 @@ Copy the `.cottheme` file(s) into:
 
 ### Via CotEditor
 
-1. Download the `.cottheme` file(s) from the [`themes/`](./themes) folder.
+1. Download the `.cottheme` files from the [`themes/`](./themes) folder.
 2. Open **CotEditor → Settings → Appearance**.
-3. Drag the downloaded file into the theme list.
+3. Drag the downloaded files into the theme list.
 
 ## License
 
