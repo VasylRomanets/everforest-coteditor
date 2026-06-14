@@ -136,7 +136,7 @@ Copy the `.cottheme` file(s) into:
 ~/Library/Containers/com.coteditor.CotEditor/Data/Library/Application Support/CotEditor/Themes
 ```
 
-> `~/Library` is hidden by default. Open it in Finder via **Go → Go to Folder** (`⇧⌘G`) and paste the path.
+`~/Library` is hidden by default. Open it in Finder via **Go → Go to Folder** (`⇧⌘G`) and paste the path.
 
 ## License
 
