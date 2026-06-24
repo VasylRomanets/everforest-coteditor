@@ -156,6 +156,12 @@ Copy the `.cottheme` files into:
 2. Open **CotEditor → Settings → Appearance**.
 3. Drag the downloaded files into the theme list.
 
+## Community Resources
+
+The following are unofficial resources where you can find Everforest ports for other apps and tools:
+- [Everforest Website](https://everforest.vercel.app)
+- [Everforest Collection](https://github.com/neuromaancer/everforest_collection)
+
 ## License
 
 [MIT](./LICENSE)
